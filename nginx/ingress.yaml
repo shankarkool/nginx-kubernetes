@@ -10,7 +10,7 @@ spec:
       paths:
       - backend:
           service:
-            name: nginx
+            name: nginx-service
             port:
               number: 80
         path: /
