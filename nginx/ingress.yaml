@@ -4,7 +4,6 @@ metadata:
   name: example-ingress
   namespace: test
 spec:
-  ingressClassName: nginx
   rules:
   - host: myfirst.sample
     http:
